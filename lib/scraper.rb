@@ -9,3 +9,5 @@ courses = doc.css(".tout__label.heading.heading--level-4")
 courses.each do |course|
   puts course.text.strip
 end
+
+p doc.css(".tout__label.heading.heading--level-4")[0]
