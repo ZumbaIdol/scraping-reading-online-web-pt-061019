@@ -11,3 +11,5 @@ courses.each do |course|
 end
 
 p doc.css(".tout__label.heading.heading--level-4")[0].name
+
+p doc.css(".tout__label.heading.heading--level-4")[0].attributes
